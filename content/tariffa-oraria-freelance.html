@@ -1,0 +1,40 @@
+<!-- title: Calcolo tariffa oraria freelance con partita IVA forfettaria – ContiChiari -->
+<!-- description: Quanto chiedere all'ora come freelance? Inserisci il netto che vuoi guadagnare e calcola tariffa oraria e giornaliera considerando tasse e INPS del forfettario. -->
+<!-- script: calc -->
+
+<h1>Calcolo tariffa oraria freelance</h1>
+<p class="lead">Parti dal netto che vuoi portare a casa. Il calcolatore aggiunge tasse, contributi e spese e ti dice quanto chiedere.</p>
+
+<div class="card">
+<form class="calc" id="calc-tariffa" onsubmit="return false">
+  <div class="row">
+    <div><label for="t-netto">Netto annuo desiderato (€)</label><input id="t-netto" type="number" min="0" value="24000"></div>
+    <div><label for="t-spese">Spese annue di lavoro (€) <span class="hint">software, PC, commercialista…</span></label><input id="t-spese" type="number" min="0" value="2000"></div>
+  </div>
+  <div class="row">
+    <div><label for="t-ore">Ore fatturabili a settimana</label><input id="t-ore" type="number" min="1" value="25"></div>
+    <div><label for="t-sett">Settimane lavorative all'anno</label><input id="t-sett" type="number" min="1" max="52" value="44"></div>
+  </div>
+  <div class="row">
+    <div><label for="t-coeff">Coefficiente di redditività (%)</label><input id="t-coeff" type="number" value="78"></div>
+    <div><label for="t-imposta">Imposta sostitutiva (%)</label><select id="t-imposta"><option value="15">15%</option><option value="5">5%</option></select></div>
+    <div><label for="t-inps">Aliquota Gestione Separata (%)</label><input id="t-inps" type="number" step="0.01" value="26.07"></div>
+  </div>
+</form>
+<div class="result">
+  <table>
+    <tr><td>Fatturato annuo necessario</td><td id="t-fatturato"></td></tr>
+    <tr><td>Fatturato medio mensile</td><td id="t-mese"></td></tr>
+    <tr><td>Tariffa giornaliera (8 ore)</td><td id="t-giorno"></td></tr>
+    <tr class="total"><td>Tariffa oraria minima</td><td id="t-oraria"></td></tr>
+  </table>
+  <div id="t-limite" class="warn hidden">Il fatturato necessario supera 85.000 €, il limite del regime forfettario.</div>
+</div>
+<p class="hint">Consiglio: le ore fatturabili sono meno di quelle lavorate. Email, preventivi e formazione non si fatturano, e 20-30 ore fatturabili a settimana sono un valore realistico.</p>
+</div>
+
+<div class="cta">
+  <h2 style="margin-top:0">Tieni traccia di quanto fatturi davvero</h2>
+  <p>Il <strong>Gestionale Forfettario</strong> ti mostra mese per mese se sei in linea con l'obiettivo e quanto accantonare.</p>
+  <a class="btn" href="prodotti.html">Scopri il Gestionale</a>
+</div>

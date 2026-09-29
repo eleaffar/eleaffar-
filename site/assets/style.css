@@ -1,0 +1,39 @@
+:root{--bg:#f7f8fa;--card:#fff;--text:#1b1f24;--muted:#5b6470;--brand:#1f6f5c;--brand-2:#e8f3ef;--border:#e2e5e9;--warn:#8a5a00;--warn-bg:#fff6e0}
+@media (prefers-color-scheme:dark){:root{--bg:#111416;--card:#1a1e21;--text:#e8eaec;--muted:#a0a8b0;--brand:#5cc3a6;--brand-2:#1c2c27;--border:#2a3034;--warn:#f0c46a;--warn-bg:#2b2410}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--brand)}
+header{background:var(--card);border-bottom:1px solid var(--border)}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding-top:12px;padding-bottom:12px}
+.logo{font-weight:800;font-size:1.2rem;text-decoration:none;color:var(--text)}
+.logo span{color:var(--brand)}
+nav a{margin-left:14px;text-decoration:none;color:var(--muted);font-weight:500}
+nav a:hover{color:var(--brand)}
+main{padding:32px 0 48px}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 12px}
+h2{margin-top:32px}
+.lead{font-size:1.1rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px}
+.card h3{margin-top:0}
+.card a.btn{margin-top:8px}
+.btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:0;cursor:pointer;font-size:1rem}
+@media (prefers-color-scheme:dark){.btn{color:#0d1a16}}
+.btn.secondary{background:var(--brand-2);color:var(--brand)}
+form.calc{display:grid;gap:14px}
+label{font-weight:600;display:block;margin-bottom:4px}
+input,select{width:100%;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:1rem}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.hint{font-size:.85rem;color:var(--muted);font-weight:400}
+.result{background:var(--brand-2);border-radius:12px;padding:18px;margin-top:18px}
+.result table{width:100%;border-collapse:collapse}
+.result td{padding:6px 8px 6px 0;border-bottom:1px solid var(--border)}
+.result td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.result tr.total td{font-size:1.15rem;border-bottom:0;color:var(--brand)}
+.warn{background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:12px;margin-top:12px}
+.cta{background:var(--card);border:2px solid var(--brand);border-radius:12px;padding:20px;margin:32px 0}
+.price{font-size:1.6rem;font-weight:800;color:var(--brand)}
+.hidden{display:none}
+footer{border-top:1px solid var(--border);padding:24px 0;color:var(--muted);font-size:.9rem}
+article p,article li{max-width:70ch}
