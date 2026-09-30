@@ -2,7 +2,7 @@
 
 Sito di calcolatori gratuiti e guide per freelance e partite IVA in Italia, con vendita di prodotti digitali.
 
-**Come guadagna:** i calcolatori gratuiti (tasse forfettario, prestazione occasionale, tariffa oraria) portano traffico da Google, e le pagine rimandano al prodotto a pagamento *Gestionale Forfettario* (file Excel/Google Sheets a 9 €), che viene consegnato in automatico dalla piattaforma di pagamento.
+**Come guadagna:** i calcolatori gratuiti (tasse forfettario, prestazione occasionale, tariffa oraria) portano traffico da Google, e le pagine rimandano al prodotto a pagamento *Gestionale Forfettario* (file Excel/Google Sheets a 9,99 €), che viene consegnato in automatico dalla piattaforma di pagamento.
 
 ## Struttura
 

@@ -2,7 +2,7 @@
 // (Store > Products > Share > "Checkout link"). Finché sono vuoti, i pulsanti
 // mostrano "Disponibile a breve".
 window.SHOP = {
-  gestionaleForfettario: ""
+  gestionaleForfettario: "https://contichiari.lemonsqueezy.com/checkout/buy/b60ea576-6266-40bd-9bc8-aa082cafdd37"
 };
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("[data-product]").forEach(function (el) {
