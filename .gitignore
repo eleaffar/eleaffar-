@@ -1,3 +1,0 @@
-# Il prodotto a pagamento non deve finire nel repository pubblico
-*.xlsx
-__pycache__/
