@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "preferences": {
+    "destination": {
+      "value": "instagram-reels",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:13.265Z"
+    },
+    "aspect": {
+      "value": "1080x1920",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:13.318Z"
+    },
+    "language": {
+      "value": "it",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:13.370Z"
+    },
+    "flow": {
+      "value": "automation",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:13.423Z"
+    },
+    "storyboard": {
+      "value": "no",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:13.475Z"
+    },
+    "style_preset.product-launch-video": {
+      "value": "code-editorial",
+      "confirmed_in": [
+        "alleria-spot"
+      ],
+      "updated_at": "2026-10-01T14:36:25.517Z"
+    }
+  },
+  "sightings": {}
+}
